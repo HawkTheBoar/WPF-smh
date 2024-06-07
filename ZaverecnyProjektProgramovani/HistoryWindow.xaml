@@ -1,0 +1,21 @@
+﻿<Window x:Class="ZaverecnyProjektProgramovani.HistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZaverecnyProjektProgramovani"
+        mc:Ignorable="d"
+        Title="HistoryWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer Name="BookView" Margin="58,54,58,54">
+            <StackPanel Name="MyStackPanel" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <Label Name="historyLabel" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Width="341" Content="History"/>
+                <TabPanel HorizontalAlignment="Center" Width="657">
+                    <Label Name="thing" Width="210"></Label>
+                    <Label Name="date_borrowed" Width="210"></Label>
+                    <Label Name="date_returned" Width="210"></Label>
+                </TabPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
